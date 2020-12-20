@@ -7,3 +7,4 @@ export * from './CardElements';
 export * from './ButtonElements';
 export * from './ContentElements';
 export * from './PaginationElements';
+export * from './PostElements';

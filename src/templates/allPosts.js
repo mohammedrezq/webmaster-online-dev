@@ -5,7 +5,7 @@ import {
   Container,
   Content,
   ContentCard,
-  FeatureImage,
+  // FeatureImage,
   Pagination,
 } from "../components"
 import { H1, P } from "../elements"

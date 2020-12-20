@@ -6,3 +6,4 @@ export * from "./Button";
 export * from "./ContentCard";
 export * from "./Content";
 export * from "./Pagination";
+export * from "./Post";

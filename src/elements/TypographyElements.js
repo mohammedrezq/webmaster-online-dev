@@ -61,9 +61,9 @@ export const P = styled.p`
 `
 
 export const H1 = styled.h1`
-    font-size: 2.2.rem;
-    line-height: 2.5rem;
-    color: ${props => {
+  font-size: 2.2.rem;
+  line-height: 2.5rem;
+  color: ${props => {
     switch (props.color) {
       case "dark1":
         return props.theme.colors.dark1
@@ -84,13 +84,12 @@ export const H1 = styled.h1`
   font-weight: 400;
   text-align: ${props => (props.textAlign ? props.textAlign : "left")};
   margin: ${props => (props.margin ? props.margin : 0)};
-
-`;
+`
 
 export const H2 = styled.h2`
-    font-size: 1.5.rem;
-    line-height: 1.875rem;
-    color: ${props => {
+  font-size: 1.5.rem;
+  line-height: 1.875rem;
+  color: ${props => {
     switch (props.color) {
       case "dark1":
         return props.theme.colors.dark1
@@ -111,5 +110,4 @@ export const H2 = styled.h2`
   font-weight: 400;
   text-align: ${props => (props.textAlign ? props.textAlign : "left")};
   margin: ${props => (props.margin ? props.margin : 0)};
-
-`;
+`

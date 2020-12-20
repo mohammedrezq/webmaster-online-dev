@@ -13,6 +13,6 @@ export const ContentCard = ({ date, title, excerpt, slug }) => {
       <P size="small" color="dark2" text-align="center" margin="0 0 1.5rem 0">
           {excerpt}
       </P>
-      <Button href={slug}>Read More</Button>
+      <Button href={`/${slug}/`}>Read More</Button>
   </CardWrapper>
 }
